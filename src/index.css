@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-gray100: oklch(0.967 0.003 264.542);
+  --color-gray200: oklch(0.928 0.006 264.531);
+  --color-gray300: oklch(0.872 0.01 258.338);
+  --color-gray600: oklch(0.446 0.03 256.802);
+  --color-gray800:oklch(0.278 0.033 256.848);
+  --color-lightLime:oklch(0.897 0.196 126.665);
+  --color-middleLime:oklch(0.648 0.2 131.684);
+  --color-darkLime:oklch(0.405 0.101 131.063);
+  --color-darkEarth: #3A1E0F;
+  --color-lightBrown: #A27B5C;
+  --color-darkBrown: #5C3A21;
+  --color-lightGreen: #3F4F44;
+  --color-darkGreen: #2C3930;
+
+  --font-sans: 'Josefin Sans', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
