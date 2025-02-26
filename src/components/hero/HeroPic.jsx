@@ -1,19 +1,26 @@
 import React from 'react'
 import { PiCircleDashedThin, PiSquareThin } from "react-icons/pi";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../framerMotion/animation";
 
 
 const HeroPic = () => {
   return (
-    <div className="flex h-full items-center justify-center">
+    <motion.div
+      variants={fadeIn('right', 0.2)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0 }}
+      className="flex h-full items-center justify-center">
       <img
         src="/images/pic_round.webp"
         alt="Feng Ye"
-        className="w-auto h-[280px] z-2"
+        className="w-auto h-[300px] z-2 hover:scale-105 transition-transform duration-300 ease-in-out"
       />
-      <div className="absolute z-1 flex justify-center items-center animate-pulse">
+      {/* <div className="absolute z-1 flex justify-center items-center animate-pulse">
         <PiCircleDashedThin className="md:h-[90%] sm:h-[100%] min-h-[480px] w-auto text-orange-400 blur-md animate-[spin_20s_linear_infinite]" />
-      </div>
-    </div>
+      </div> */}
+    </motion.div>
   )
 }
 

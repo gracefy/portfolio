@@ -1,9 +1,16 @@
 import React from 'react'
 import { BiSolidRightTopArrowCircle } from "react-icons/bi";
+import { motion } from 'framer-motion'
+import { fadeIn } from '../../framerMotion/animation'
 
 const SingleProject = ({ project, index }) => {
   return (
-    <div className={`w-full flex flex-col-reverse items-center md:flex-row ${index % 2 === 0 ? 'md:flex-row-reverse' : ''} gap-8 justify-end`}>
+    <motion.div
+      variants={fadeIn('up', 0.2)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.7 }}
+      className={`w-full flex flex-col-reverse items-center md:flex-row ${index % 2 === 0 ? 'md:flex-row-reverse' : ''} gap-8 justify-end`}>
       <div>
         <h3 className='text-2xl md:text-3xl text-lime-600 dark:text-lime-400'>{project.title}</h3>
         <p className={`text-xl font-thin text-gray-600 dark:text-gray-300 font-roboto text-center ${index % 2 !== 0 ? 'md:text-right' : 'md:text-left'}`}>{project.year}</p>
@@ -15,7 +22,7 @@ const SingleProject = ({ project, index }) => {
         <div className='w-full h-full bg-lime-800 opacity-50 dark:opacity-60 hover:opacity-0 absolute top-0 left-0 transition-all duration-500 hidden md:block'></div>
         <img src={project.image} alt="Project image" className='w-full h-full' />
       </div>
-    </div>
+    </motion.div>
   )
 }
 

@@ -1,8 +1,15 @@
 import React from 'react'
+import { motion } from 'framer-motion'
+import { fadeIn } from '../../framerMotion/animation'
 
 const AboutText = () => {
   return (
-    <div className="max-w-[800px] text-center md:items-start md:text-left">
+    <motion.div
+      variants={fadeIn('right', 0.2)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.7 }}
+      className="max-w-[800px] text-center md:items-start md:text-left">
       <h2 className="text-6xl text-lime-600 mb-10 dark:text-lime-400">About Me</h2>
       <p className="text-lg mt-4 text-primaryBlue dark:text-gray-300 leading-relaxed">
         I have a passion for building interactive web applications and optimizing user experience.
@@ -20,7 +27,7 @@ const AboutText = () => {
       <button className="mt-10 px-6 py-3 text-lg border border-lime-600 rounded-full text-primaryBlue hover:bg-lime-600 hover:text-gray-300 dark:text-gray-300 transition-all duration-500">
         My Projects
       </button>
-    </div>
+    </motion.div>
   )
 }
 
