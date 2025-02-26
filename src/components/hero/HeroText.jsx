@@ -27,8 +27,8 @@ const HeroText = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
         className="mt-4 text-lg text-primaryBlue dark:text-gray-300 leading-relaxed">
-        A Software Developer skilled in <strong>React, Node.js, and Tailwind CSS</strong>.<br />
-        With experience in **digital twins, machine learning, and backend API development**.
+        A Passionate Software Developer skilled in <span className='font-semibold'>Node.js, React and ASP.NET</span>.<br />
+        Looking for a <span className='font-bold'>Backend / Frontend / Fullstack Developer</span> role.
       </motion.p>
     </div>
   )

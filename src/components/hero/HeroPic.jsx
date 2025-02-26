@@ -17,9 +17,9 @@ const HeroPic = () => {
         alt="Feng Ye"
         className="w-auto h-[300px] z-2 hover:scale-105 transition-transform duration-300 ease-in-out"
       />
-      {/* <div className="absolute z-1 flex justify-center items-center animate-pulse">
-        <PiCircleDashedThin className="md:h-[90%] sm:h-[100%] min-h-[480px] w-auto text-orange-400 blur-md animate-[spin_20s_linear_infinite]" />
-      </div> */}
+      <div className="absolute z-1 flex justify-center items-center animate-pulse w-[320px] h-[320px] rounded-full bg-lime-600/50 dark:bg-lime-400">
+        {/* <PiCircleDashedThin className="md:h-[90%] sm:h-[100%] min-h-[480px] w-auto text-lime-600 blur-md animate-[spin_20s_linear_infinite]" /> */}
+      </div>
     </motion.div>
   )
 }

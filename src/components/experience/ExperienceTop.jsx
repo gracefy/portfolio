@@ -11,7 +11,7 @@ const ExperienceTop = () => {
       variants={fadeIn('down', 0.2)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.7 }}
+      viewport={{ once: false, amount: 0.5 }}
       className='flex flex-col lg:flex-row gap-4 justify-center items-center py-3'>
       <ExperienceTopLeft />
       <ExperienceTopMiddle />

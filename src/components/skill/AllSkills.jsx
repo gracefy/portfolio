@@ -95,7 +95,7 @@ const AllSkills = () => {
             variants={fadeIn('up', 0.2)}
             initial="hidden"
             whileInView="show"
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: false, amount: 0.5 }}
           >
             <div className='flex flex-col items-center gap-2' key={index}>
               <skill.icon className='text-7xl text-lime-600 hover:text-lime-800 ' />

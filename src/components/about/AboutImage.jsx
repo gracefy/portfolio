@@ -8,11 +8,11 @@ const AboutImage = () => {
       variants={fadeIn('left', 0.2)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.7 }}
+      viewport={{ once: false, amount: 0.5 }}
       className="relative h-[500px] w-[300px]">
       <div className="absolute h-[500px] w-[300px] rounded-[100px] overflow-hidden z-2">
         <img
-          src="/images/about-me.jpg"
+          src="/images/about.jpg"
           alt="About me image"
           className="h-full w-auto object-cover"
         />

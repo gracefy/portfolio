@@ -23,7 +23,7 @@ const FooterMain = () => {
             ))}
           </ul>
         </div>
-        <p className='max-w-[1200px] mx-auto pb-10 text-right text-sm text-gray-500 dark:text-gray-400'> 2025 Feng | All Rights Reserved. </p>
+        <p className='max-w-[1200px] mx-auto pb-10 text-right text-sm text-gray-500 dark:text-gray-400'> &copy; 2025 Grace | All Rights Reserved. </p>
       </div>
     </section>
   )
