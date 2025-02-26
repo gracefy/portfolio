@@ -4,19 +4,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-gray100: oklch(0.967 0.003 264.542);
-  --color-gray200: oklch(0.928 0.006 264.531);
-  --color-gray300: oklch(0.872 0.01 258.338);
-  --color-gray600: oklch(0.446 0.03 256.802);
-  --color-gray800:oklch(0.278 0.033 256.848);
-  --color-lightLime:oklch(0.897 0.196 126.665);
-  --color-middleLime:oklch(0.648 0.2 131.684);
-  --color-darkLime:oklch(0.405 0.101 131.063);
-  --color-darkEarth: #3A1E0F;
-  --color-lightBrown: #A27B5C;
-  --color-darkBrown: #5C3A21;
-  --color-lightGreen: #3F4F44;
-  --color-darkGreen: #2C3930;
+  --color-primaryBlue: #2C3E50;
 
   --font-sans: 'Josefin Sans', sans-serif;
   --font-roboto: 'Roboto', sans-serif;

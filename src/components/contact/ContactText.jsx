@@ -3,7 +3,7 @@ import React from 'react'
 
 const ContactText = () => {
   return (
-    <h2 className="text-6xl text-lime-800 font-semibold dark:text-lime-300 text-center mb-10">Contact Me</h2>
+    <h2 className="text-6xl text-lime-600 dark:text-lime-400 text-center mb-10">Contact Me</h2>
   )
 }
 

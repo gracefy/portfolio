@@ -5,9 +5,9 @@ const SingleProject = ({ project, index }) => {
   return (
     <div className={`w-full flex flex-col-reverse items-center md:flex-row ${index % 2 === 0 ? 'md:flex-row-reverse' : ''} gap-8 justify-end`}>
       <div>
-        <h3 className='text-2xl md:text-3xl text-lime-600 dark:text-lime-300'>{project.title}</h3>
+        <h3 className='text-2xl md:text-3xl text-lime-600 dark:text-lime-400'>{project.title}</h3>
         <p className={`text-xl font-thin text-gray-600 dark:text-gray-300 font-roboto text-center ${index % 2 !== 0 ? 'md:text-right' : 'md:text-left'}`}>{project.year}</p>
-        <a href={project.link} className={`text-lg flex gap-2 items-center text-lime-500 hover:text-lime-300 transition-all duration-500 cursor-pointer justify-self-center ${index % 2 !== 0 ? 'md:justify-self-end' : 'md:justify-self-start'}`}>
+        <a href={project.link} className={`text-lg flex gap-2 items-center text-lime-500 hover:text-lime-400 transition-all duration-500 cursor-pointer justify-self-center ${index % 2 !== 0 ? 'md:justify-self-end' : 'md:justify-self-start'}`}>
           View <BiSolidRightTopArrowCircle />
         </a>
       </div>

@@ -41,7 +41,7 @@ const AllExperiences = () => {
       {experiences.map((experience, index) => (
         <>
           <SingleExperience key={index} experience={experience} />
-          {index < experiences.length - 1 && <FaArrowRight className='text-6xl text-lime-600 dark:text-lime-300 hidden lg:block' />}
+          {index < experiences.length - 1 && <FaArrowRight className='text-6xl text-lime-600 dark:text-lime-400 hidden lg:block' />}
         </>
       ))}
     </div>

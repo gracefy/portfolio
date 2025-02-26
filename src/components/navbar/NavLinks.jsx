@@ -1,11 +1,32 @@
-export default function NavLinks() {
+import React from 'react'
+import { Link } from 'react-scroll'
+
+const links = [
+  { name: "About", section: "about" },
+  { name: "Skills", section: "skills" },
+  { name: "Experience", section: "experience" },
+  { name: "Projects", section: "projects" },
+  { name: "Contact", section: "contact" },
+];
+
+const NavLinks = () => {
+
   return (
-    <ul className="hidden md:flex space-x-6">
-      <li><a href="#about" className="text-gray-700 dark:text-white">About</a></li>
-      <li><a href="#skills" className="text-gray-700 dark:text-white">Skills</a></li>
-      <li><a href="#experience" className="text-gray-700 dark:text-white">Experience</a></li>
-      <li><a href="#projects" className="text-gray-700 dark:text-white">Projects</a></li>
-      <li><a href="#contact" className="text-gray-700 dark:text-white">Contact</a></li>
+    <ul className="hidden md:flex space-x-6 font-semibold">
+      {links.map((link) => (
+        <li key={link.section} className="group">
+          <Link
+            to={link.section}
+            smooth={true}
+            spy={true}
+            duration={500}
+            offset={-130}
+            className='text-lg cursor-pointer text-primaryBlue dark:text-gray-300 hover:text-lime-600 dark:hover:text-lime-400 transition-all duration-500'>{link.name}</Link>
+          <div className="mx-auto bg-lime-600 w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
+        </li>
+      ))}
     </ul>
-  );
+  )
 }
+
+export default NavLinks

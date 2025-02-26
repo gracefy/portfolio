@@ -19,7 +19,6 @@ const ContactForm = () => {
 
   }
 
-
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -79,7 +78,7 @@ const ContactForm = () => {
           required
         />
         <button type="submit"
-          className='w-full rounded-lg border border-lime-600 h-12 font-bold text-xl bg-gray-50 dark:bg-gray-900 dark:border-gray-600 dark:text-gray-200 dark:hover:bg-gray-600 hover:bg-lime-300 transition-all duration-500'>
+          className='w-full rounded-lg border border-lime-600 h-12 font-bold text-xl bg-gray-50 dark:bg-gray-900 dark:border-gray-600 text-lime-600 hover:bg-lime-300 hover:text-lime-800 dark:text-gray-200 transition-all duration-500'>
           Send
         </button>
 

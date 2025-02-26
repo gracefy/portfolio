@@ -4,16 +4,17 @@ import NavLinks from "./NavLinks";
 import ThemeToggle from "./ThemeToggle";
 import MobileNav from "./MobileNav";
 
-
-export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
-
+const NavbarMain = () => {
   return (
-    <nav className="flex justify-between items-center p-4 bg-white dark:bg-gray-900 shadow-md">
-      <NavLogo />
-      <NavLinks />
-      <ThemeToggle />
-      <MobileNav isOpen={isOpen} setIsOpen={setIsOpen} />
+    <nav className="font-sans w-full p-4 mx-auto flex bg-gray-100 dark:bg-gray-900 shadow-md fixed z-20">
+      <div className="max-w-[1300px] flex w-full mx-auto justify-between items-center">
+        <NavLogo />
+        <NavLinks />
+        <ThemeToggle />
+        <MobileNav />
+      </div>
     </nav>
-  );
+  )
 }
+
+export default NavbarMain
