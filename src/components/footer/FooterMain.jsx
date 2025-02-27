@@ -13,8 +13,8 @@ const FooterMain = () => {
     <section id='footer' className='pt-10 dark:bg-gray-900'>
       <div className='px-4 mx-auto'>
         <div className='w-full h-[1px] bg-gray-300'></div>
-        <div className='hidden md:flex max-w-[1200px] justify-between mt-4 mx-auto text-primaryBlue dark:text-gray-300'>
-          <p className='text-3xl'>Feng Ye</p>
+        <div className='hidden md:flex max-w-[1300px] justify-between mt-4 mx-auto text-primaryBlue dark:text-gray-300'>
+          <p className='text-3xl'>Grace Ye</p>
           <ul className='flex gap-4 text-xl'>
             {links.map((link, index) => (
               <li key={index}>
@@ -23,7 +23,7 @@ const FooterMain = () => {
             ))}
           </ul>
         </div>
-        <p className='max-w-[1200px] mx-auto pb-10 text-right text-sm text-gray-500 dark:text-gray-400'> &copy; 2025 Grace | All Rights Reserved. </p>
+        <p className='max-w-[1300px] mx-auto pb-10 text-right text-sm text-gray-500 dark:text-gray-400'> &copy; 2025 Grace | All Rights Reserved. </p>
       </div>
     </section>
   )

@@ -14,7 +14,7 @@ const HeroPic = () => {
       className="flex h-full items-center justify-center">
       <img
         src={`${import.meta.env.BASE_URL}images/pic_round.webp`}
-        alt="Feng Ye"
+        alt="Grace Ye"
         className="w-auto h-[300px] z-2 hover:scale-105 transition-transform duration-300 ease-in-out"
       />
       <div className="absolute z-1 flex justify-center items-center animate-pulse w-[320px] h-[320px] rounded-full bg-lime-600/50 dark:bg-lime-400">

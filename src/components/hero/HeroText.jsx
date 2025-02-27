@@ -19,7 +19,7 @@ const HeroText = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
         className="md:text-6xl text-4xl font-bold uppercase text-lime-600 dark:text-lime-400">
-        Feng Ye
+        Grace Ye
       </motion.h1>
       <motion.p
         variants={fadeIn('up', 0.6)}
@@ -27,7 +27,7 @@ const HeroText = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
         className="mt-4 text-lg text-primaryBlue dark:text-gray-300 leading-relaxed">
-        A Passionate Software Developer skilled in <span className='font-semibold'>Node.js, React and ASP.NET</span>.<br />
+        A Passionate Software Developer skilled in <span className='font-semibold'>Node.js, React and Python</span>.<br />
         Looking for a <span className='font-bold'>Backend / Frontend / Fullstack Developer</span> role.
       </motion.p>
     </div>

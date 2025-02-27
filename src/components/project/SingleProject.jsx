@@ -14,7 +14,7 @@ const SingleProject = ({ project, index }) => {
       <div className={`text-center ${index % 2 !== 0 ? 'md:text-right' : 'md:text-left'}`}>
         <h3 className='text-2xl md:text-3xl text-lime-600 dark:text-lime-400'>{project.title}</h3>
         <p className='text-xl font-thin text-gray-600 dark:text-gray-300 font-roboto'>{project.year}</p>
-        <p className='text-lg flex gap-2 items-center text-gray-700'>{project.techStack.join('/')}</p>
+        <p className='text-lg flex gap-2 items-center text-gray-700 dark:text-gray-300'>{project.techStack.join('/')}</p>
 
         {/* <a href={project.link} className={`text-lg flex gap-2 items-center text-lime-500 hover:text-lime-400 transition-all duration-500 cursor-pointer justify-self-center ${index % 2 !== 0 ? 'md:justify-self-end' : 'md:justify-self-start'}`}>
           View <BiSolidRightTopArrowCircle />
