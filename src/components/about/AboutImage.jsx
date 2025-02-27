@@ -12,7 +12,7 @@ const AboutImage = () => {
       className="relative h-[500px] w-[300px]">
       <div className="absolute h-[500px] w-[300px] rounded-[100px] overflow-hidden z-2">
         <img
-          src="/images/about.jpg"
+          src="${import.meta.env.BASE_URL}images/about.jpg"
           alt="About me image"
           className="h-full w-auto object-cover"
         />
