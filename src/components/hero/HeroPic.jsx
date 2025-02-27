@@ -13,7 +13,7 @@ const HeroPic = () => {
       viewport={{ once: false, amount: 0 }}
       className="flex h-full items-center justify-center">
       <img
-        src="${import.meta.env.BASE_URL}images/pic_round.webp"
+        src={`${import.meta.env.BASE_URL}images/pic_round.webp`}
         alt="Feng Ye"
         className="w-auto h-[300px] z-2 hover:scale-105 transition-transform duration-300 ease-in-out"
       />

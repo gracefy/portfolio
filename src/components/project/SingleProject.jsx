@@ -22,7 +22,7 @@ const SingleProject = ({ project, index }) => {
       </div>
       <div className='relative max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 border border-gray-100'>
         <div className='w-full h-full bg-lime-800 opacity-50 dark:opacity-60 hover:opacity-0 absolute top-0 left-0 transition-all duration-500 hidden md:block'></div>
-        <img src={project.image} alt="Project image" className='w-full h-full' />
+        <img src={`${import.meta.env.BASE_URL}images/${project.image}`} alt="Project image" className='w-full h-full' />
       </div>
     </motion.div>
   )
