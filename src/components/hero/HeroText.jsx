@@ -27,8 +27,8 @@ const HeroText = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
         className="mt-4 text-lg text-primaryBlue dark:text-gray-300 leading-relaxed">
-        A Passionate Software Developer skilled in <span className='font-semibold'>Node.js, React and Python</span>.<br />
-        Looking for a <span className='font-bold'>Backend / Frontend / Fullstack Developer</span> role.
+        A passionate Software Developer skilled in <span className='text-gray-900 dark:text-white font-bold'>Node.js, React and Python</span>.<br />
+        Seeking a <span className='text-gray-900 dark:text-white font-bold'>Backend / Frontend / Fullstack Developer</span> role.
       </motion.p>
     </div>
   )

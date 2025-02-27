@@ -23,7 +23,7 @@ const experiences = [
     responsibilities: [
       "Implement robust pipelines to integrate machine learning models into a digital twin application, optimizing real-time predictions.",
       "Scheduled and automated recurring tasks, including data retrieval, preprocessing, prediction, and model training, ensuring seamless operations.",
-      "Used Python and FastAPI."
+      "Used FastAPI and Python."
     ]
   }
 ]
