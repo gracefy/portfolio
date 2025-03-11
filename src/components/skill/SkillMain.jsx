@@ -3,6 +3,7 @@ import SkillText from './SkillText'
 import AllSkills from './AllSkills'
 import SubSkill from './SubSkill'
 
+// Skill main component
 const SkillMain = () => {
   return (
     <section id='skills' className='pt-20 mx-auto bg-white dark:bg-gray-800'>

@@ -1,6 +1,7 @@
 import React from 'react'
 import ContactForm from './ContactForm'
 
+// Left side of the contact section
 const ContactLeft = () => {
   return (
     <div className='flex flex-col gap-8 w-full'>

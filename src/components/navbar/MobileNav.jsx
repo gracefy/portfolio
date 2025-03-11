@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { IoMenu, IoClose } from "react-icons/io5";
 
+// Navigation links
 const links = [
   { name: "About", section: "about" },
   { name: "Skills", section: "skills" },
@@ -9,7 +10,9 @@ const links = [
   { name: "Contact", section: "contact" },
 ];
 
+// Navigation links component on small screens
 const MobileNav = () => {
+  // State to toggle mobile navigation
   const [isOpen, setIsOpen] = useState(false);
 
   return (

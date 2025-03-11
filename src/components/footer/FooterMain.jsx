@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Navigation links
 const links = [
   { name: "About", section: "about" },
   { name: "Skills", section: "skills" },
@@ -8,6 +9,7 @@ const links = [
   { name: "Contact", section: "contact" },
 ];
 
+// Footer main component
 const FooterMain = () => {
   return (
     <section id='footer' className='pt-10 dark:bg-gray-900'>

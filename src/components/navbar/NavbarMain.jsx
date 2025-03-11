@@ -4,6 +4,7 @@ import NavLinks from "./NavLinks";
 import ThemeToggle from "./ThemeToggle";
 import MobileNav from "./MobileNav";
 
+// Main navigation component
 const NavbarMain = () => {
   return (
     <nav className="font-sans w-full p-4 mx-auto flex bg-gray-100 dark:bg-gray-900 shadow-md fixed z-20">

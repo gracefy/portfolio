@@ -5,15 +5,16 @@ import { motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/animation'
 import ExperienceTopMiddle from './ExperienceTopMiddle'
 
+// Experiences data
 const experiences = [
   {
     job: "Software Developer",
     company: "Beijing Couplower Technology",
-    date: "2024.01 - 2024.05",
+    date: "2024.01 - 2024.08",
     responsibilities: [
-      "Developed music playback, playlist looping, and other key features for a WeChat Mini Program.",
-      "Optimized the user interface and app performance to enhance the overall user experience.",
-      "Used WeChat DevTools and JavaScript."
+      "Developed and delivered core features for a 100,000+ user mobile app, including music playback, playlist management, along with various related features, enhancing user engagement and retention.",
+      "Optimized UI/UX and app performance, reducing load time by 20% and improving overall user satisfaction.",
+      "Technologies: WeChat DevTools (Vue.js-based), JavaScript, HTML, CSS."
     ]
   },
   {
@@ -21,13 +22,14 @@ const experiences = [
     company: "Conestoga College Smart Centre ",
     date: "2024.09 - 2024.12",
     responsibilities: [
-      "Implement robust pipelines to integrate machine learning models into a digital twin application, optimizing real-time predictions.",
-      "Scheduled and automated recurring tasks, including data retrieval, preprocessing, prediction, and model training, ensuring seamless operations.",
-      "Used FastAPI and Python."
+      "Developed and delivered core features for a 100,000+ user mobile app, including music playback, playlist management, along with various related features, enhancing user engagement and retention.",
+      "Optimized UI/UX and app performance, reducing load time by 20% and improving overall user satisfaction.",
+      "Technologies: WeChat DevTools (Vue.js-based), JavaScript, HTML, CSS."
     ]
   }
 ]
 
+// All experiences component
 const AllExperiences = () => {
   return (
     <div className='relative flex flex-col md:flex-row justify-between items-center'>

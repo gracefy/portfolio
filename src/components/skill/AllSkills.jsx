@@ -6,6 +6,7 @@ import { SiFastapi, SiMongodb } from "react-icons/si";
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/animation'
 
+// Skills data
 const skills = [
   {
     skill: "Node.js",
@@ -64,6 +65,7 @@ const skills = [
 ];
 
 
+// All skills component with framer motion
 const AllSkills = () => {
   return (
     <div>

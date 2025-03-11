@@ -3,6 +3,7 @@ import ExperienceText from './ExperienceText'
 import ExperienceTop from './ExperienceTop'
 import AllExperiences from './AllExperiences'
 
+// Experience main component
 const ExperienceMain = () => {
   return (
     <section id='experience' className='flex flex-col gap-12 px-4 py-20 mx-auto dark:bg-gray-900'>

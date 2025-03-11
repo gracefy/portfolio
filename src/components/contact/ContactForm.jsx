@@ -1,12 +1,15 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
+// Contact form component
 const ContactForm = () => {
+  // State for form fields
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [success, setSuccess] = useState('');
 
+  // Handle form field changes
   const handleChange = (e) => {
     const { name, value } = e.target;
     if (name === 'from_name') {
@@ -19,8 +22,10 @@ const ContactForm = () => {
 
   }
 
+  // Form reference
   const form = useRef();
 
+  // Handle form submission
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -43,6 +48,7 @@ const ContactForm = () => {
   };
 
 
+  // Form of the contact section
   return (
     <div>
       <p className='text-lime-600 py-3'>{success}</p>

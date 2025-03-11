@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/animation'
 
+// Skill text component with framer motion
 const SkillText = () => {
   return (
     <motion.div

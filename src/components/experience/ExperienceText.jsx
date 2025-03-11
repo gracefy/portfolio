@@ -3,6 +3,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/animation'
 
+// Experience title component
 const ExperienceText = () => {
   return (
     <motion.div

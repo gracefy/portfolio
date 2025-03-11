@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import useDarkMode from '../../hooks/useDarkMode'
 import { IoSunnyOutline, IoMoon } from "react-icons/io5";
 
+// Theme toggle component
 const ThemeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useDarkMode();
 

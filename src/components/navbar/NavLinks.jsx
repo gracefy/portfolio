@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 
+// Navigation links
 const links = [
   { name: "About", section: "about" },
   { name: "Skills", section: "skills" },
@@ -9,8 +10,8 @@ const links = [
   { name: "Contact", section: "contact" },
 ];
 
+// Navigation links component on large screens
 const NavLinks = () => {
-
   return (
     <ul className="hidden md:flex space-x-6 font-semibold">
       {links.map((link) => (

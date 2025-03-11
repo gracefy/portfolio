@@ -3,6 +3,7 @@ import HeroText from './HeroText'
 import HeroPic from './HeroPic'
 import SubHero from './SubHero'
 
+// Hero main component
 const HeroMain = () => {
   return (
     <section id='hero' className='font-sans bg-white dark:bg-gray-800 pt-40'>

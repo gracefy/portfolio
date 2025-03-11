@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Experience info component
 const ExperienceInfo = ({ number, text }) => {
   return (
     <div className='flex flex-col justify-center items-center'>

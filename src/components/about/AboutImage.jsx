@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/animation'
 
+// About image component with framer motion
 const AboutImage = () => {
   return (
     <motion.div

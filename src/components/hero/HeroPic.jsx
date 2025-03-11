@@ -3,7 +3,7 @@ import { PiCircleDashedThin, PiSquareThin } from "react-icons/pi";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/animation";
 
-
+// Hero pic component with framer motion
 const HeroPic = () => {
   return (
     <motion.div

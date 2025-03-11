@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Single contact information component
 const ContactSingleInfo = ({ text, Image }) => {
   return (
     <div className='flex gap-4 items-center justify-start'>

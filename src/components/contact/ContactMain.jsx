@@ -3,6 +3,7 @@ import ContactText from './ContactText'
 import ContactLeft from './ContactLeft'
 import ContactRight from './ContactRight'
 
+// Contact main component
 const ContactMain = () => {
   return (
     <section id='contact' className='py-20 dark:bg-gray-900'>

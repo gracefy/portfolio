@@ -1,5 +1,5 @@
-import { GiDuration } from "react-icons/gi"
 
+// Animation for the transition of the components
 export const fadeIn = (direction, delay) => {
   return {
     hidden: {

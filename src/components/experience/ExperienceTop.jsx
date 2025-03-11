@@ -5,6 +5,7 @@ import ExperienceTopRight from './ExperienceTopRight'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/animation'
 
+// Experience top component, not used for now
 const ExperienceTop = () => {
   return (
     <motion.div

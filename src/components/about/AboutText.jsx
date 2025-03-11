@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/animation'
 import { Link } from "react-scroll"
 
+// About text component with framer motion
 const AboutText = () => {
   return (
     <motion.div
@@ -14,7 +15,7 @@ const AboutText = () => {
       <h2 className="text-6xl text-lime-600 mb-10 dark:text-lime-400">About Me</h2>
       <p className="text-lg mt-4 text-primaryBlue dark:text-gray-300 leading-relaxed">
         I'm Grace Ye, a web developer passionate about building interactive applications and optimizing user experiences.
-        Proficient in <span className='text-gray-900 dark:text-white font-bold'>Node.js, React, and Python</span>,
+        Proficient in <span className='text-gray-900 dark:text-white font-bold'>JavaScript, Node.js, and React</span>,
         I specialize in creating efficient, scalable, and user-friendly solutions.
       </p>
       <p className="text-lg mt-4 text-primaryBlue dark:text-gray-300 leading-relaxed">

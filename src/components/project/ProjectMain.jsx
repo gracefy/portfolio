@@ -2,6 +2,7 @@ import React from 'react'
 import ProjectText from './ProjectText'
 import AllProjects from './AllProjects'
 
+// Project main component
 const ProjectMain = () => {
   return (
     <section id='projects' className='py-20 bg-gray-100 dark:bg-gray-800'>

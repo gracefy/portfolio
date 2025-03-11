@@ -6,6 +6,8 @@ import { FiPhone, FiGithub } from "react-icons/fi";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
+
+// Right side of the contact section
 const ContactRight = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-12'>

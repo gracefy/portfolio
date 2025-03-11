@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Sub Skill component - separate section under the skills
 const SubSkill = () => {
   return (
     <div className='border-y-2 border-gray-200 dark:border-gray-700 relative'>

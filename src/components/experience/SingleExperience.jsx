@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/animation'
 
+// Single experience component with props
 const SingleExperience = ({ experience }) => {
   return (
     <motion.div
@@ -9,7 +10,7 @@ const SingleExperience = ({ experience }) => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.5 }}
-      className='h-auto w-[90%] md:h-[350px] md:w-[440px] border-2 border-dashed border-lime-600 dark:border-lime-300 p-4 rounded-2xl mt-12'>
+      className='h-auto w-[90%] md:h-[400px] md:w-[440px] border-2 border-dashed border-lime-600 dark:border-lime-300 p-4 rounded-2xl mt-12'>
       <h3 className='font-bold text-lime-800 dark:text-lime-400'>{experience.job}</h3>
       <p className='text-lime-600'>{experience.company}</p>
       <p className='text-gray-400 dark:text-gray-300 '>{experience.date}</p>

@@ -2,6 +2,7 @@ import React from 'react'
 import AboutText from './AboutText'
 import AboutImage from './AboutImage'
 
+// About main component
 const AboutMain = () => {
   return (
     <section id='about' className='font-sans bg-gray-100 dark:bg-gray-900 py-20'>

@@ -8,7 +8,7 @@ import ContactMain from './components/contact/ContactMain'
 import FooterMain from './components/footer/FooterMain'
 
 
-
+// App component with all the components
 function App() {
   return (
     <>

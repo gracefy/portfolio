@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/animation'
 
+// Hero text component with framer motion
 const HeroText = () => {
   return (
     <div className="flex flex-col gap-4 h-full justify-center text-center md:text-left pt-8">
@@ -27,7 +28,7 @@ const HeroText = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
         className="mt-4 text-lg text-primaryBlue dark:text-gray-300 leading-relaxed">
-        A passionate Software Developer skilled in <span className='text-gray-900 dark:text-white font-bold'>Node.js, React and Python</span>.<br />
+        A passionate Software Developer skilled in <span className='text-gray-900 dark:text-white font-bold'>JavaScript, Node.js, and React</span>.<br />
         Seeking a <span className='text-gray-900 dark:text-white font-bold'>Backend / Frontend / Fullstack Developer</span> role.
       </motion.p>
     </div>
