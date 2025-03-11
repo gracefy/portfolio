@@ -28,7 +28,8 @@ const SingleProject = ({ project, index }) => {
         {show && (
           <div className='text-left mt-4 border-l-2 border-lime-500 pl-4'>
             <p className='text-lg text-gray-700 dark:text-gray-300 leading-relaxed'>{project.description}</p>
-            <ul className='text-lg text-gray-700 dark:text-gray-300 mt-4'>
+            <h4 className='text-lg text-gray-700 font-bold dark:text-lime-400 mt-4'>Key Contributions:</h4>
+            <ul className='text-lg text-gray-700 dark:text-gray-300'>
               {project.responsibility.map((res, index) => (
                 <li key={index} className='list-disc ml-4 leading-relaxed'>{res}</li>
               ))}
