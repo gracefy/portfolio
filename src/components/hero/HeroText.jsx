@@ -31,6 +31,17 @@ const HeroText = () => {
         A passionate Software Developer skilled in <span className='text-gray-900 dark:text-white font-bold'>JavaScript, Node.js, and React</span>.<br />
         Seeking a <span className='text-gray-900 dark:text-white font-bold'>Backend / Frontend / Fullstack Developer</span> role.
       </motion.p>
+      <motion.a
+        variants={fadeIn('up', 0.6)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0 }}
+        className="mt-4 text-lg text-lime-600 dark:text-lime-300 leading-relaxed underline cursor-pointer hover:text-lime-400 dark:hover:text-lime-500 transition-all duration-500"
+        href="https://github.com/gracefy/portfolio"
+        target="_blank"
+      >
+        View GitHub
+      </motion.a>
     </div>
   )
 }
