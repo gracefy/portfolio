@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../framerMotion/animation'
+import { BiSolidRightTopArrowCircle } from "react-icons/bi";
 
 // Hero text component with framer motion
 const HeroText = () => {
@@ -32,15 +33,16 @@ const HeroText = () => {
         Seeking a <span className='text-gray-900 dark:text-white font-bold'>Backend / Frontend / Fullstack Developer</span> role.
       </motion.p>
       <motion.a
-        variants={fadeIn('up', 0.6)}
+        variants={fadeIn('left', 0.8)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="mt-4 text-lg text-lime-600 dark:text-lime-300 leading-relaxed underline cursor-pointer hover:text-lime-400 dark:hover:text-lime-500 transition-all duration-500"
+        className="group flex gap-2 items-center mt-4 text-md text-lime-600 dark:text-lime-300 leading-relaxed underline cursor-pointer hover:text-lime-400 dark:hover:text-lime-500"
         href="https://github.com/gracefy/portfolio"
         target="_blank"
       >
-        View GitHub
+        <span className="group-hover:transition-all group-hover:duration-500">View GitHub</span>
+        <BiSolidRightTopArrowCircle className="group-hover:transition-all group-hover:duration-500" />
       </motion.a>
     </div>
   )

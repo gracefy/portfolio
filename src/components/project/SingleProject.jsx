@@ -35,7 +35,7 @@ const SingleProject = ({ project, index }) => {
               ))}
             </ul>
             {project.link && (
-              <a href={project.link} target='_blank' rel='noreferrer' className='flex gap-2 items-center text-lg text-lime-500 hover:text-lime-400 transition-all duration-500 underline mt-3'>
+              <a href={project.link} target='_blank' className='flex gap-2 items-center text-lg text-lime-500 hover:text-lime-400 transition-all duration-500 underline mt-3'>
                 View Project <BiSolidRightTopArrowCircle />
               </a>
             )}
