@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 // Sub hero component - separate section under the hero
 const SubHero = () => {
@@ -8,7 +8,7 @@ const SubHero = () => {
       <p className="md:block hidden">Team Work</p>
       <p className="md:block hidden">Details Master</p>
     </div>
-  )
-}
+  );
+};
 
-export default SubHero
+export default SubHero;

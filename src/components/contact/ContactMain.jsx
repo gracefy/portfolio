@@ -1,22 +1,17 @@
-import React from 'react'
-import ContactText from './ContactText'
-import ContactLeft from './ContactLeft'
-import ContactRight from './ContactRight'
+import ContactText from './ContactText';
+import ContactInfo from './ContactInfo';
 
-// Contact main component
 const ContactMain = () => {
   return (
-    <section id='contact' className='py-20 dark:bg-gray-900'>
-      <div className='max-w-[1200px] mx-auto items-center justify-center px-4'>
-        <ContactText />
-        <div className='flex flex-col lg:flex-row justify-between gap-24 bg-gray-200 dark:bg-gray-700 p-8 rounded-2xl'>
-          <ContactLeft />
-          <ContactRight />
-        </div>
+    <section
+      id="contact"
+      className="flex flex-col items-center justify-center py-20 px-6 text-center bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-100"
+    >
+      <ContactText />
 
-      </div>
+      <ContactInfo />
     </section>
-  )
-}
+  );
+};
 
-export default ContactMain
+export default ContactMain;

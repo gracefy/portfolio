@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import NavLogo from "./NavLogo";
-import NavLinks from "./NavLinks";
-import ThemeToggle from "./ThemeToggle";
-import MobileNav from "./MobileNav";
+import React, { useState } from 'react';
+import NavLogo from './NavLogo';
+import NavLinks from './NavLinks';
+import ThemeToggle from './ThemeToggle';
+import MobileNav from './MobileNav';
 
 // Main navigation component
 const NavbarMain = () => {
@@ -15,7 +15,7 @@ const NavbarMain = () => {
         <MobileNav />
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default NavbarMain
+export default NavbarMain;

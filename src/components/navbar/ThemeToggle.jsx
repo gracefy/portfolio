@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react'
-import useDarkMode from '../../hooks/useDarkMode'
-import { IoSunnyOutline, IoMoon } from "react-icons/io5";
+import React, { useState, useEffect } from 'react';
+import useDarkMode from '../../hooks/useDarkMode';
+import { IoSunnyOutline, IoMoon } from 'react-icons/io5';
 
 // Theme toggle component
 const ThemeToggle = () => {
@@ -19,7 +19,7 @@ const ThemeToggle = () => {
         )}
       </button>
     </div>
-  )
-}
+  );
+};
 
-export default ThemeToggle
+export default ThemeToggle;

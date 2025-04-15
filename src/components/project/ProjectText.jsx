@@ -1,6 +1,6 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { fadeIn } from '../../framerMotion/animation'
+import React from 'react';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../../framerMotion/animation';
 
 // Project text component with framer motion
 const ProjectText = () => {
@@ -10,17 +10,16 @@ const ProjectText = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.5 }}
-      className='flex flex-col justify-between items-center gap-12 mx-auto text-center md:text-left'>
-      <h2 className="text-6xl text-lime-600 dark:text-lime-400">Projects</h2>
-      <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-        I have developed a diverse portfolio of web solutions, ranging
-        from <span className='text-gray-900 dark:text-white font-bold'>responsive mobile applications to scalable
-          back-end systems</span> for deploying machine learning models.
-        These experiences have honed my ability to deliver high-performance, user-centric, and scalable web experiences
-        that meet both technical and business needs.
+      className="flex flex-col justify-between items-center gap-12 mx-auto text-center md:text-left"
+    >
+      <h2 className="text-6xl text-lime-600 dark:text-lime-400">What I’ve Built</h2>
+      <p className="text-lg text-gray-600 dark:text-gray-300 max-w-[70%] mx-auto text-center leading-relaxed">
+        My portfolio includes mobile-friendly interfaces, AI-powered tools, and scalable backend
+        services. Each project is an opportunity to explore technical depth—from UI animations to
+        API performance—while delivering real value to users.
       </p>
     </motion.div>
-  )
-}
+  );
+};
 
-export default ProjectText
+export default ProjectText;
