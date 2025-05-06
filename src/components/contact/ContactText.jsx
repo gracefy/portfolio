@@ -9,7 +9,7 @@ const ContactText = () => {
       variants={fadeIn('down', 0.2)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.5 }}
+      viewport={{ once: false, amount: 0.2 }}
       className="flex flex-col justify-between items-center gap-12 mx-auto text-center md:text-left"
     >
       <h2 className="text-4xl md:text-5xl font-semibold text-lime-600 dark:text-lime-400 mb-3">

@@ -30,7 +30,7 @@ const SingleProject = ({ project, index }) => {
           {project.tech.map((tech, i) => (
             <span
               key={i}
-              className="bg-lime-100 dark:bg-lime-900 text-lime-800 dark:text-lime-200 px-2 py-0.5 rounded-full text-xs"
+              className="bg-lime-200 dark:bg-lime-900 text-gray-600/90 dark:text-gray-100/90 px-2 py-0.5 rounded-full text-xs font-light"
             >
               {tech}
             </span>

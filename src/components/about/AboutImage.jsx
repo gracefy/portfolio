@@ -12,7 +12,7 @@ const AboutImage = () => {
       variants={fadeIn('left', 0.2)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.5 }}
+      viewport={{ once: false, amount: 0.2 }}
       className="relative h-[500px] w-[300px] group flex items-center justify-center"
     >
       {!videoBroken && (
