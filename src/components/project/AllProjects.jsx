@@ -9,12 +9,12 @@ const projects = [
     image: 'answerbook.jpg',
     description:
       'A playful side project that blends AI, frontend animation, and a touch of poetic mystery.',
-    tech: ['Next.js', 'TailwindCSS', 'OpenRouter API', 'TypeScript', 'Vercel'],
+    tech: ['Next.js', 'TypeScript', 'TailwindCSS', 'PostgreSQL', 'Prisma', 'Vercel'],
     responsibility: [
-      'Built an interactive Q&A interface integrating large language models through OpenRouter API.',
-      'Designed smooth user flows with animation and dynamic state management.',
-      'Implemented model fallback logic to support multiple LLMs to ensure consistent availability.',
-      'Structured with modular hooks and reusable components for scalability and maintainability.',
+      'Developed a full-stack Q&A platform powered by large language models via OpenRouter API.',
+      'Implemented user authentication with JWT and HttpOnly cookies, supporting registration and login flows.',
+      'Designed and integrated history tracking features with search, pagination, and deletion functionality.',
+      'Maintained modular architecture with reusable hooks and components to ensure scalability and clarity.',
     ],
     link: 'https://answerbook.graceye.ca/',
     linkNote: '',
@@ -25,7 +25,7 @@ const projects = [
     image: 'factory.jpg',
     description:
       'A digital twin system integrated with machine learning models to monitor machine operations in real-time and predict outcomes for proactive decision-making.',
-    tech: ['Python', 'FastAPI', 'MQTT', 'InfluxDB'],
+    tech: ['Python', 'FastAPI', 'TensorFlow', 'Scikit-learn', 'MQTT', 'InfluxDB'],
     responsibility: [
       'Designed and implemented pipelines to integrate machine learning models into a digital twin system.',
       'Processed real-time sensor data from the client, applied ML models to predict optimal machine setup parameters, and delivered results back to the client.',
