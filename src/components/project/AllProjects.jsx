@@ -62,7 +62,7 @@ const projects = [
       'Implemented dynamic data display and handled client requests and responses.',
       'Deployed the application on Render with MongoDB Atlas integration.',
     ],
-    link: 'https://wildlife-g6xv.onrender.com/',
+    link: 'https://ecowild.graceye.ca/',
   },
 ];
 
