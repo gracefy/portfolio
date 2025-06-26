@@ -7,23 +7,22 @@ const experiences = [
     company: 'Conestoga College Smart Centre ',
     date: '2024.09 - 2024.12',
     responsibilities: [
-      'Led backend development for a digital twin system, integrating ML models with real-time sensor data.',
-      'Built modular components for data ingestion, processing, model training, evaluation, and deployment.',
-      'Designed and implemented scalable APIs using FastAPI and automated the full ML retraining workflow, reducing manual effort and improving system performance by 30%.',
-      'Created system flowcharts and documentation, aligning backend structure with data workflows.',
+      'Designed scalable APIs and automated ML pipelines for real-time equipment monitoring, predictive maintenance, and model retraining, improving performance by 30%.',
+      'Built data pipelines to process sensor streams, manage model lifecycle, and support automated decision-making in production.',
+      'Documented system architecture and workflows to facilitate knowledge transfer and maintainability.',
     ],
-    tech: ['Python', 'FastAPI', 'MQTT', 'InfluxDB', 'TensorFlow', 'Scikit-learn'],
+    tech: ['Python', 'FastAPI', 'TensorFlow', 'Scikit-learn', 'MQTT', 'InfluxDB'],
   },
   {
     job: 'Web Developer',
     company: 'Beijing Couplower Technology',
     date: '2024.01 - 2024.08',
     responsibilities: [
-      'Led the refactoring of audio playback logic for a large-scale mobile app with 100k+ users , enabling seamless cross-page and background playback.',
-      'Reduced page load time by 40% through dynamic pagination and lazy loading.',
-      'Collaborated with product and design teams to deliver responsive UI and maintain code quality under tight release schedules.',
+      'Developed core modules for a mobile web app serving 100k+ users, including cross-page audio playback and content management features.',
+      'Refactored legacy codebase to improve scalability, maintainability, and code quality across the platform.',
+      'Enhanced performance and reduced page load time by 40% through pagination and lazy loading.',
     ],
-    tech: ['JavaScript', 'Vue-based framework', 'HTML5', 'CSS3'],
+    tech: ['JavaScript', 'Vue.js', 'HTML5', 'CSS3'],
   },
   {
     job: 'QA Engineer',
@@ -34,7 +33,7 @@ const experiences = [
       'Performed cross-device testing using cloud-based platforms on phones of various brands and models.',
       'Assisted in feature scoping and prioritization based on requirements, user feedback and test results.',
     ],
-    tech: ['Jira', 'Postman', 'Manual Testing', 'Test Cases'],
+    tech: ['Postman', 'Manual Testing', 'Test Cases'],
   },
 ];
 

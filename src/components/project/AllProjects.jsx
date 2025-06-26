@@ -4,6 +4,35 @@ import SingleProject from './SingleProject';
 // Projects data
 const projects = [
   {
+    title: 'AI Chatbot with Vector Search',
+    year: 'June 2025',
+    image: 'ai-chatbot.jpg',
+    description:
+      'An exploratory fashion chatbot powered by OpenAI Embeddings and hybrid vector search, deployed with full-stack cloud infrastructure.',
+    tech: ['React', 'TypeScript', 'Python', 'FastAPI', 'OpenAI API', 'Azure AI Search', 'Docker', 'Google Cloud Run'],
+    responsibility: [
+      'Designed and deployed a full-stack chatbot with OpenAI Embedding + Chat Completion APIs for product Q&A.',
+      'Implemented dual vector search modes: local cosine similarity and Azure AI hybrid scoring with soft filtering.',
+      'Built data ingestion pipeline for fashion product catalog, including cleaning, parsing, and metadata structuring.',
+      'Deployed with Docker and GCP Cloud Run, supporting environment-based configuration and custom domain.',
+    ],
+    link: 'https://chatbot.graceye.ca/',
+  },
+  {
+    title: 'Wildlife Web App',
+    year: 'May 2024',
+    image: 'wildlife.jpg',
+    description:
+      'A full-stack web application to showcase Ontario wildlife, featuring animal info, blogs, donations and user engagement features.',
+    tech: ['JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'HTML5', 'CSS3'],
+    responsibility: [
+      'Designed and built a full-stack web application, implementing both frontend and backend architectures along with database design.',
+      'Implemented dynamic data display, blog system, donation forms, and interactive client response handling.',
+      'Deployed with Docker and GCP Cloud Run, supporting environment-based configuration and custom domain.',
+    ],
+    link: 'https://ecowild.graceye.ca/',
+  },
+  {
     title: 'AI AnswerBook',
     year: 'April 2025',
     image: 'answerbook.jpg',
@@ -49,20 +78,6 @@ const projects = [
     ],
     link: null,
     linkNote: "Search for '黄梅迷' on WeChat to access",
-  },
-  {
-    title: 'Wildlife Web App',
-    year: 'May 2024',
-    image: 'wildlife.jpg',
-    description:
-      'A full-stack web application to showcase Ontario wildlife, featuring animal info, blogs, donations and user engagement features.',
-    tech: ['JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'HTML5', 'CSS3'],
-    responsibility: [
-      'Designed and built a full-stack web application, implementing both frontend and backend architectures along with database design.',
-      'Implemented dynamic data display and handled client requests and responses.',
-      'Deployed the application on Render with MongoDB Atlas integration.',
-    ],
-    link: 'https://ecowild.graceye.ca/',
   },
 ];
 

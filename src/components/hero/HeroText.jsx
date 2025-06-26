@@ -40,32 +40,14 @@ const HeroText = () => {
         className="mt-4 text-lg text-primaryBlue dark:text-gray-300 leading-relaxed"
       >
         Full-stack developer focused on building{' '}
-        <span className="text-gray-900 dark:text-white font-bold">intuitive UIs </span>
-        and <span className="text-gray-900 dark:text-white font-bold">scalable APIs</span>
-        .<br />I look for teams that truly value{' '}
-        <span className="text-gray-900 dark:text-white font-bold">
-          ccollaboration, clean code{' '}
-        </span>{' '}
+        <span className="text-gray-900 dark:text-white font-bold">intuitive UIs</span>, 
+        <span className="text-gray-900 dark:text-white font-bold"> scalable APIs </span>
+        and <span className="text-gray-900 dark:text-white font-bold">AI/ML-integrated </span>apps.
+  
+        <br />I look for teams that truly value
+        <span className="text-gray-900 dark:text-white font-bold"> collaboration, clean code </span>
         and <span className="text-gray-900 dark:text-white font-bold">thoughtful design</span>.
       </motion.p>
-
-      <motion.div
-        variants={fadeIn('left', 0.8)}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0 }}
-        className="mx-auto md:mx-0 mt-4"
-      >
-        <a
-          href="https://answerbook.graceye.ca"
-          target="_blank"
-          className="group flex gap-1 items-center text-md text-lime-600 dark:text-lime-300 underline cursor-pointer hover:text-lime-400 dark:hover:text-lime-500"
-        >
-          <FaRobot className="w-5 h-5" />
-          <span className="group-hover:transition-all group-hover:duration-500">AI Q&A Demo</span>
-          <BiSolidRightTopArrowCircle className="w-4 h-4 group-hover:transition-all group-hover:duration-500" />
-        </a>
-      </motion.div>
 
       <motion.div
         variants={fadeIn('right', 0.8)}

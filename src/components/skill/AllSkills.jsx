@@ -33,16 +33,16 @@ const skills = [
     project: 'AI AnswerBook',
   },
   {
-    skill: '.NET',
-    icon: SiDotnet,
-    level: 70,
-    project: 'Invoice Management System',
-  },
-  {
     skill: 'Python',
     icon: IoLogoPython,
     level: 75,
     project: 'ML Model Training',
+  },
+  {
+    skill: '.NET',
+    icon: SiDotnet,
+    level: 70,
+    project: 'Invoice Management System',
   },
   {
     skill: 'HTML5',

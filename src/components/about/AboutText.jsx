@@ -15,25 +15,22 @@ const AboutText = () => {
     >
       <h2 className="text-6xl text-lime-600 mb-10 dark:text-lime-400">A Bit About Me</h2>
       <p className="text-lg mt-4 text-primaryBlue dark:text-gray-300 leading-relaxed">
-        Hi, I’m Grace Ye—a full-stack developer with hands-on experience building interactive UIs,
-        scalable APIs, and integrating ML models into real-world systems. I work across the stack
-        using tools like{' '}
-        <span className="text-gray-900 dark:text-white font-bold">
-          Node.js, React, C#, and Python{' '}
-        </span>
-        to build clean and practical solutions.
+        Hi, I’m Grace Ye—a full-stack developer with hands-on experience building interactive UIs, 
+        scalable APIs, and AI/ML-integrated apps. I work across tools like
+        <span className="text-gray-900 dark:text-white font-bold"> React, Node.js, 
+          Python </span>and <span className="text-gray-900 dark:text-white font-bold"> C# </span>
+        to deliver clean, practical solutions.
       </p>
 
       <p className="text-lg mt-4 text-primaryBlue dark:text-gray-300 leading-relaxed">
-        I’ve led multiple real-world projects from concept to deployment, and I’m always
-        learning—whether it’s refining my code, improving UX, or exploring new tech. Outside of
-        work, I enjoy reading, playing with my cat Juice, and iterating on my side projects. I often
-        dive into new frameworks or rethink architecture to boost performance and maintainability.
+        I’ve led multiple real-world projects from concept to deployment, and I’m always learning 
+        — whether it’s improving UX, optimizing code, or exploring new technologies. 
+        Outside of work, I enjoy reading and working on side projects.
       </p>
 
       <p className="text-lg mt-4 text-primaryBlue dark:text-gray-300 leading-relaxed">
-        I’m looking for a long-term opportunity where I can grow, contribute, and keep building my
-        skills. I’m not just here to fill a role—I want to earn my place and grow with the team.
+        I’m looking for a long-term opportunity where I can grow, contribute, and keep improving 
+        — not just to fill a position, but to earn it and grow with the team.
       </p>
       <button
         className="mt-10 px-6 py-3 text-lg border border-lime-600 rounded-full text-primaryBlue dark:text-gray-300
