@@ -16,10 +16,10 @@ const experiences = [
   {
     job: 'Web Developer',
     company: 'Beijing Couplower Technology',
-    date: '2024.01 - 2024.08',
+    date: '2024.01 - 2025.08',
     responsibilities: [
       'Developed core modules for a mobile web app serving 100k+ users, including cross-page audio playback and content management features.',
-      'Refactored legacy codebase to improve scalability, maintainability, and code quality across the platform.',
+      'Refactored legacy codebase and optimized database structures to improve scalability, maintainability, and overall system performance.',
       'Enhanced performance and reduced page load time by 40% through pagination and lazy loading.',
     ],
     tech: ['JavaScript', 'Vue.js', 'HTML5', 'CSS3'],
@@ -29,9 +29,9 @@ const experiences = [
     company: 'Beijing Couplower Technology',
     date: '2018.08 - 2022.12',
     responsibilities: [
-      'Created detailed test plans and test cases; tracked, reported and followed up on bugs with the product and development team.',
-      'Performed cross-device testing using cloud-based platforms on phones of various brands and models.',
-      'Assisted in feature scoping and prioritization based on requirements, user feedback and test results.',
+      'Created detailed test plans and test cases; tracked, reported and followed up on bugs in collaboration with the product and development team.',
+      'Conducted cross-device testing for multiple mobile brands and models using cloud-based platforms.',
+      'Supported feature scoping and prioritization based on requirements, user feedback and test results.',
     ],
     tech: ['Postman', 'Manual Testing', 'Test Cases'],
   },
