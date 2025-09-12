@@ -25,7 +25,7 @@ const AboutText = () => {
       <p className="text-lg mt-4 text-primaryBlue dark:text-gray-300 leading-relaxed">
         I’ve led multiple real-world projects from concept to deployment, and I’m always learning 
         — whether it’s improving UX, optimizing code, or exploring new technologies. 
-        Outside of work, I enjoy reading and working on side projects.
+        Outside of work, I enjoy meditation and walking, which help me stay focused, manage stress, and keep a clear mind.
       </p>
 
       <p className="text-lg mt-4 text-primaryBlue dark:text-gray-300 leading-relaxed">
