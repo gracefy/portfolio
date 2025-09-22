@@ -2,6 +2,17 @@ import SingleExperience from './SingleExperience';
 
 // Experiences data
 const experiences = [
+    {
+    job: 'Web Developer',
+    company: 'Beijing Couplower Technology',
+    date: '2024.01 - present',
+    responsibilities: [
+      'Developed core modules for a mobile web app serving 100k+ users, including cross-page audio playback and content management features.',
+      'Refactored legacy codebase and optimized database structures to improve scalability, maintainability, and overall system performance.',
+      'Enhanced performance and reduced page load time by 40% through pagination and lazy loading.',
+    ],
+    tech: ['JavaScript', 'Vue.js', 'HTML5', 'CSS3'],
+  },
   {
     job: 'Software Developer',
     company: 'Conestoga College Smart Centre ',
@@ -13,17 +24,7 @@ const experiences = [
     ],
     tech: ['Python', 'FastAPI', 'TensorFlow', 'Scikit-learn', 'MQTT', 'InfluxDB'],
   },
-  {
-    job: 'Web Developer',
-    company: 'Beijing Couplower Technology',
-    date: '2024.01 - 2025.08',
-    responsibilities: [
-      'Developed core modules for a mobile web app serving 100k+ users, including cross-page audio playback and content management features.',
-      'Refactored legacy codebase and optimized database structures to improve scalability, maintainability, and overall system performance.',
-      'Enhanced performance and reduced page load time by 40% through pagination and lazy loading.',
-    ],
-    tech: ['JavaScript', 'Vue.js', 'HTML5', 'CSS3'],
-  },
+
   {
     job: 'QA Engineer',
     company: 'Beijing Couplower Technology',
